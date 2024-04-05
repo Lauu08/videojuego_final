@@ -1,0 +1,183 @@
+[
+    {
+        "id": 1,
+        "vanguardia": "cubismo",
+        "pregunta": "¿Quién es considerado el fundador del Cubismo?",
+        "respuestas": [
+            {"text": "Leonardo da Vinci", "correct": false},
+            {"text": "Pablo Picasso", "correct": true},
+            {"text": "Vincent van Gogh", "correct": false},
+            {"text": "Michelangelo", "correct": false}
+        ]
+    },
+    {
+        "id": 2,
+        "vanguardia": "cubismo",
+        "pregunta": "¿En qué ciudad se originó el Cubismo?",
+        "respuestas": [
+            {"text": "París", "correct": true},
+            {"text": "Berlín", "correct": false},
+            {"text": "Madrid", "correct": false},
+            {"text": "Nueva York", "correct": false}
+        ]
+    },
+    {
+        "id": 3,
+        "vanguardia": "cubismo",
+        "pregunta": "¿Cuál es una de las características principales del Cubismo?",
+        "respuestas": [
+            {"text": "Uso de colores brillantes", "correct": false},
+            {"text": "Paisajes naturales", "correct": false},
+            {"text": "Realismo fotográfico", "correct": false},
+            {"text": "Uso de formas geométricas", "correct": true}
+        ]
+    },
+    {
+        "id": 4,
+        "vanguardia": "cubismo",
+        "pregunta": "¿Cuáles de las siguientes opciones se considera una de las primeras obras cubistas?",
+        "respuestas": [
+            {"text": "El beso", "correct": false},
+            {"text": "La Noche Estrellada", "correct": false},
+            {"text": "Les Demoiselles d'Avignon", "correct": true},
+            {"text": "Guernica", "correct": false}
+        ]
+    },
+
+    {
+        "id": 5,
+        "vanguardia": "expresionismo",
+        "pregunta": "¿Quién es considerado de los principales representantes del Expresionismo en la pintura?",
+        "respuestas": [
+            {"text": "Claude Monet", "correct": false},
+            {"text": "Edvard Munch", "correct": true},
+            {"text": "Vincent van Gogh", "correct": false},
+            {"text": "Pablo Picasso", "correct": false}
+        ]
+    },
+    {
+        "id": 6,
+        "vanguardia": "expresionismo",
+        "pregunta": "¿En qué país se originó el movimiento artístico del Expresionismo?",
+        "respuestas": [
+            {"text": "Italia", "correct": false},
+            {"text": "Francia", "correct": false},
+            {"text": "Estados Unidos", "correct": false},
+            {"text": "Alemania", "correct": true}
+        ]
+    },
+    {
+        "id": 7,
+        "vanguardia": "expresionismo",
+        "pregunta": "¿Cuál es una característica distintiva del Expresionismo?",
+        "respuestas": [
+            {"text": "Representación emocional y subjetiva", "correct": true},
+            {"text": "Realismo detallado", "correct": false},
+            {"text": "Uso de colores suaves", "correct": false},
+            {"text": "Temas mitológicos", "correct": false}
+        ]
+    },
+    {
+        "id": 8,
+        "vanguardia": "expresionismo",
+        "pregunta": "¿Cuál es una de las obras más famosas de Edvard Munch y un ícono del Expresionismo?",
+        "respuestas": [
+            {"text": "El jinete azul", "correct": false},
+            {"text": "La Persistencia de la Memoria", "correct": false},
+            {"text": "El grito", "correct": true},
+            {"text": "La Gioconda", "correct": false}
+        ]
+    },
+
+    {
+        "id": 9,
+        "vanguardia": "impresionismo",
+        "pregunta": "¿Quién es considerado uno de los fundadores del movimiento impresionista?",
+        "respuestas": [
+            {"text": "Rembrandt", "correct": false},
+            {"text": "Edvard Munch", "correct": false},
+            {"text": "Caravaggio", "correct": false},
+            {"text": "Claude Monet", "correct": true}
+        ]
+    },
+    {
+        "id": 10,
+        "vanguardia": "impresionismo",
+        "pregunta": "¿Dónde se celebró la primera exposición impresionista en 1874?",
+        "respuestas": [
+            {"text": "Tokyo", "correct": false},
+            {"text": "París", "correct": true},
+            {"text": "Barcelona", "correct": false},
+            {"text": "Venecia", "correct": false}
+        ]
+    },
+    {
+        "id": 11,
+        "vanguardia": "impresionismo",
+        "pregunta": "¿Cuál es una característica principal del impresionismo?",
+        "respuestas": [
+            {"text": "Capturación de la luz y la atmósfera", "correct": true},
+            {"text": "Temas religiosos", "correct": false},
+            {"text": "Uso de colores oscuros", "correct": false},
+            {"text": "Formas abstractas", "correct": false}
+        ]
+    },
+    {
+        "id": 12,
+        "vanguardia": "impresionismo",
+        "pregunta": "¿Qué pintura de Claude Monet es conocida por sus representaciones de nenúfares en su jardín en Giverny?",
+        "respuestas": [
+            {"text": "Los Nenúfares", "correct": false},
+            {"text": "El Jardín de Monet", "correct": false},
+            {"text": "Estanque de Nenúfares y Puente Japonés", "correct": true},
+            {"text": "Estanque de Nenúfares", "correct": false}
+        ]
+    },
+
+    {
+        "id": 13,
+        "vanguardia": "surrealismo",
+        "pregunta": "¿Quién es considerado el líder del movimiento surrealista?",
+        "respuestas": [
+            {"text": "André Breton", "correct": true},
+            {"text": "Claude Monet", "correct": false},
+            {"text": "Salvador Dalí", "correct": false},
+            {"text": "René Magritte", "correct": false}
+        ]
+    },
+    {
+        "id": 14,
+        "vanguardia": "surrealismo",
+        "pregunta": "¿En qué año se publicó el 'Manifiesto Surrealista'?",
+        "respuestas": [
+            {"text": "1936", "correct": false},
+            {"text": "1910", "correct": false},
+            {"text": "1924", "correct": true},
+            {"text": "1907", "correct": false}
+        ]
+    },
+    {
+        "id": 15,
+        "vanguardia": "surrealismo",
+        "pregunta": "¿Cuál es una característica clave del surrealismo?",
+        "respuestas": [
+            {"text": "Exploración del subconsciente y lo irracional", "correct": true},
+            {"text": "Realismo detallado", "correct": false},
+            {"text": "Uso de colores vibrantes", "correct": false},
+            {"text": "Representación de la realidad objetiva", "correct": false}
+        ]
+    },
+    {
+        "id": 16,
+        "vanguardia": "surrealismo",
+        "pregunta": "¿Qué pintor surrealista es conocido por su obra 'La Persistencia de la Memoria'?",
+        "respuestas": [
+            {"text": "Joan Miró", "correct": false},
+            {"text": "Max Ernst", "correct": false},
+            {"text": "Salvador Dalí", "correct": true},
+            {"text": "René Magritte", "correct": false}
+        ]
+    }
+   
+    
+]

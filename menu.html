@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diart</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css">
+    <script src="app/menu.js"></script>
+</head>
+<body class="body_menu">
+    <main class="menu-explicacion">
+        <h2 class="nombre_juego_menu">SPOT</h2>
+        <div class="menu_container">
+            <button id="iniciarJuego" class="iniciarJuego" onclick="window.location.href='historia.html'"><img src="assets/img/boton_iniciar.png" alt="iniciar" class="boton_iniciar"></button>
+            <button id="instrucciones" class="instrucciones"><img src="assets/img/boton_instrucciones.png" alt="instrucciones" class="boton_instrucciones"></button>
+        </div>
+    </main>
+
+    <div id="overlay" class="overlay">
+
+    <div id="popup" class="popup">
+        <p>
+            ¡Bienvenid@ a Spot! </br>
+            Un reto cultural sobre historia del arte y sus vanguardias, 
+            Donde te enfrentarás a diversas preguntas relacionadas con la materia y 
+            tendrás que superar cada nivel del mapa artístico. 
+        </p>
+        <p>
+           </br>INSTRUCCIONES </br>
+            En la pantalla de juego observarás la pregunta con cuatro posibles opciones, y una única respuesta verdadera. 
+            Para poder pasar a la siguiente vanguardia tienes que acertar todas las 
+            preguntas. </br>
+            En caso de que falles alguna pregunta y reintentes la vanguardia, se te quitará una vida. 
+            Si pierdes tres vidas, volverás a empezar.
+            En cada vanguardia contarás con el máximo de un minuto de tiempo para responder todas las preguntas, 
+            en caso de que se te acabe el tiempo, te quedarás sin vidas.
+            </br>
+            ¡Mucha suerte!
+        </p>
+        <!-- Agrega el botón de silencio aquí -->
+        <button onclick="toggleMute()"class="boton_silenciar"><img src="assets/img/silenciar.png" alt="boton_silenciar" class="boton_silenciar_img"></button>
+        <button onclick="hidePopup()" class="boton_cerrar"><img src="assets/img/boton_cerrar.png" alt="boton_cerrar" class="boton_cerrar_img"></button>
+    </div>
+    <div>
+        <img src="assets/img/Dudoso.png" alt="mascota_dudando" class="mascota_dudando">
+    </div>
+</div>
+</body>
+</html>

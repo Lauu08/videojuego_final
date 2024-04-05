@@ -1,0 +1,1646 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 100%;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", "Helvetica", Arial, sans_serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #333;
+  text-align: left;
+  background-color: #fff;
+  height: 100%;
+}
+
+[tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+}
+
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+}
+
+dfn {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+a {
+  color: #345c8d;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:hover {
+  color: #264468;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([href]):not([tabindex]):hover:focus {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: scrollbar;
+}
+
+figure {
+  margin: 0 0 1rem;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+a,
+area,
+button,
+[role=button],
+input:not([type=range]),
+label,
+select,
+summary,
+textarea {
+  touch-action: manipulation;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: #595959;
+  text-align: left;
+  caption-side: bottom;
+}
+
+th {
+  text-align: inherit;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  border-radius: 0;
+  outline: none;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline: none;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline: none;
+}
+
+button,
+input {
+  overflow: visible;
+  outline: none;
+}
+
+button,
+select {
+  text-transform: none;
+  outline: none;
+}
+
+button,
+html [type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+  outline: none;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=date],
+input[type=time],
+input[type=datetime-local],
+input[type=month] {
+  -webkit-appearance: listbox;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+
+output {
+  display: inline-block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+h1 {
+  margin: 2ex;
+  font-size: 2.3em;
+  line-height: 2.380952381ex;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 2.380952381ex;
+  margin: 2.380952381ex 0;
+}
+
+h3 {
+  font-size: 1.75em;
+  line-height: 2.6315789474ex;
+  margin: 2.6315789474ex 0;
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: 2.7027027027ex;
+  margin: 2.7027027027ex 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 3.125ex;
+  margin: 0;
+}
+/* Definición predeterminada */
+/* FUENTES */
+@font-face {
+  font-family: Cactus_Jack_Alternate;
+  src: url("../fonts/Cactus Jack Alternate.otf") format('opentype');
+}
+@font-face {
+  font-family: Cactus_Jack_Alternate;
+  src: url("../fonts/Cactus Jack Alternate.otf") format('opentype');
+}
+@font-face {
+  font-family: Cactus_Jack_Alternate;
+  src: url("../fonts/Cactus Jack Alternate.otf") format('opentype');
+}
+@font-face {
+  font-family: GloriaHale;
+  src: url("../fonts/GloriaHallelujah-Regular.woff") format('opentype');
+}
+
+/* INICIO */
+.body_index{
+  position: fixed;
+  width: 100%;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+.nombre_juego_index {
+  font-size: 500px;
+  text-align: center; 
+  margin-top: 10px;
+  margin-left: 30px;
+  font-family: 'Cactus_Jack_Alternate', sans-serif;
+  color:#fff
+}
+.main-container_index {
+  position: relative;
+}
+.main-content_index {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 40px;
+}
+.saludo {
+  justify-content: right;
+  align-items: right;
+  width: 300px;
+  height: 500px;
+}
+
+/* MENU */
+.body_menu{
+  position: fixed;
+  width: 100%;
+  background-image: url("../img/menu_fondo.png");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+.nombre_juego_menu {
+  font-size: 150px;
+  text-align: center; 
+  margin-top: 10px; 
+  margin-bottom: 20px; 
+  font-family: 'Cactus_Jack_Alternate', sans-serif;
+  color:#fff
+}
+.menu_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.iniciarJuego{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  margin: 0 10px; 
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+.instrucciones {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  margin: 0 400px; 
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(198, 185, 185);
+  padding: 40px;
+  width: 500px;
+  border: 1px solid #6D0AEB;
+  border-radius: 10px;
+  z-index: 1000;
+}
+.popup p{
+  color: #6D0AEB;
+  font-family: 'GloriaHale', sans-serif;
+}
+.mascota_dudando {
+  position: fixed; /* Cambiar de absolute a fixed */
+  width: 300px;
+  height: 500px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  right: 200px; /* Ajustar según sea necesario */
+  top: 68%; /* Ajustar según sea necesario */
+  transform: translateY(-50%); /* Ajustar según sea necesario */
+}
+.boton_silenciar{
+  width: 5px;
+  height: 5px;
+  justify-content: right;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  margin-right: 330px;
+  outline: none;
+}
+.boton_silenciar_img{
+  width: 80px;
+  height: 80px;
+  outline: none;
+}
+.boton_cerrar {
+  width: 30px;
+  height: 30px;
+  justify-content: right;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+}
+.boton_cerrar_img{
+  width: 80px;
+  height: 80px;
+  outline: none;
+}
+
+/* HISTORIA */
+.body_historia{
+  position: fixed;
+  height: 1280px;
+  width: 832px;
+  background-image: url("../img/menu_fondo_paleta.png");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+.nombre_juego_historia{
+  font-size: 80px;
+  text-align: center; 
+  margin-top: 40px; 
+  margin-left: 600px; 
+  margin-bottom: 5px; 
+  font-family: 'Cactus_Jack_Alternate', sans-serif;
+  color:#fff
+}
+.botones-niveles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 40px;
+  outline: none;
+}
+.nivel_1_historia {
+  width: 200px;
+  height: 150px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-left:320px;
+  margin-top: 100px;
+  outline: none;
+}
+.nivel_1_historia_img{
+  width: 200px;
+  height: 200px;  
+}
+.nivel_2_historia {
+  width: 200px;
+  height: 200px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  outline: none;
+}
+.nivel_2_historia_img{
+  width: 200px;
+  height: 200px;  
+}
+.nivel_3_historia {
+  width: 50px;
+  height: 200px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+  margin-left: 150px;
+  margin-top: 20px;
+  outline: none;
+}
+.nivel_3_historia_img{
+  width: 200px;
+  height: 200px;     
+}
+.nivel_4_historia {
+  width: 0px;
+  height: 200px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 100px;
+  outline: none;
+}
+.nivel_4_historia_img{
+  width: 200px;
+  height: 200px;    
+}
+.boton_atras {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+.boton_atras_img{
+  width: 100px;
+  height: 100px; 
+  outline: none;
+}
+.iniciarJuegoReal{
+  position: fixed;
+  bottom: 0;
+  left: 100px;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+.boton_iniciar_real{
+  width: 110px;
+  height: 110px; 
+  outline: none;
+}
+.modal_historia {
+  display: none; /* El modal estará oculto por defecto */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  overflow-y: hidden;
+}
+.modal-content_historia {
+  background-color: rgb(198, 185, 185);
+  margin: 15% auto; /* Centrar vertical y horizontalmente */
+  padding: 20px;
+  border: 1px solid #6D0AEB;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  color: #6D0AEB;
+  font-family: 'GloriaHale', sans-serif;
+}
+.close_historia {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close_historia:hover,
+.close_historia:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.boton_cerrar_historia {
+  width: 30px;
+  height: 30px;
+  justify-content: right;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+  
+}
+.boton_cerrar_img_historia {
+  width: 70px;
+  height: 70px;
+  outline: none;
+}
+
+/* MAPA */
+.body_mapa{
+  position: fixed;
+  width: 100%;
+  background-image: url("../img/mapa.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+.nombre_juego_mapa{
+  font-size: 80px;
+  text-align: center; 
+  margin-top: 0px; 
+  margin-bottom: 5px; 
+  font-family: 'Cactus_Jack_Alternate', sans-serif;
+  color:#fff
+}
+.botones-niveles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 40px;
+  outline: none;
+}
+.nivel_1 {
+  width: 200px;
+  height: 200px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-left: 210px;
+  margin-top: 100px;
+  outline: none;
+}
+.nivel_1_img{
+  width: 200px;
+  height: 200px; 
+}
+.nivel_2 {
+  width: 200px;
+  height: 200px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  outline: none;
+}
+.nivel_2_img{
+  width: 200px;
+  height: 200px; 
+}
+.nivel_3 {
+  width: 200px;
+  height: 200px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  margin-top: 100px;
+  outline: none;
+}
+.nivel_3_img{
+  width: 200px;
+  height: 200px; 
+}
+.nivel_4 {
+  width: 200px;
+  height: 200px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-left: 420px;
+  outline: none;
+}
+.nivel_4_img{
+  width: 200px;
+  height: 200px; 
+}
+.boton_atras {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+.boton_atras_img{
+  width: 100px;
+  height: 100px; 
+  outline: none;
+}
+
+/* PREGUNTAS */
+.body_preguntas{
+  position: fixed;
+  width: 100%;
+  background-image: url("../img/preguntas_fondo.png");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+.contadoresPreguntas {
+  display: flex;
+  justify-content: space-between; /* Espacio uniforme entre los elementos */
+  background-color: rgb(198, 185, 185);
+  border: 1px solid #6D0AEB;
+  width: 1400px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: transparent;
+  border: none;
+}
+.numeroAciertos{
+  display: inline-block;
+  width: 100px; /* Tamaño del círculo */
+  height: 100px; /* Tamaño del círculo */
+  line-height: 60px; /* Centrar el texto verticalmente */
+  text-align: center; /* Centrar el texto horizontalmente */
+  border: 2px solid #6D0AEB; /* Grosor y color del borde */
+  border-radius: 50%; /* Hacer que el elemento sea un círculo */
+  background-color: rgb(198, 185, 185); /* Color de fondo */
+  font-size: 80px; /* Tamaño de fuente ajustable */
+  margin: 0; /* Eliminar margen */
+  padding: 10px; /* Agregar un poco de espacio alrededor de cada número */
+  color: #6D0AEB;
+  font-family: 'Cactus_Jack_Alternate', sans-serif;
+}
+.numeroVida{
+  font-size: 1px; /* Tamaño de fuente ajustable */
+  margin-right: 800px; /* Eliminar margen */
+  padding: 10px; /* Agregar un poco de espacio alrededor de cada número */
+  color: #6D0AEB;
+}
+.numeroTiempo {
+  display: inline-block;
+  width: 100px; /* Tamaño del círculo */
+  height: 100px; /* Tamaño del círculo */
+  line-height: 60px; /* Centrar el texto verticalmente */
+  text-align: center; /* Centrar el texto horizontalmente */
+  border: 2px solid #6D0AEB; /* Grosor y color del borde */
+  border-radius: 50%; /* Hacer que el elemento sea un círculo */
+  background-color: rgb(198, 185, 185); /* Color de fondo */
+  font-size: 80px; /* Tamaño de fuente ajustable */
+  margin: 0; /* Eliminar margen */
+  padding: 10px; /* Agregar un poco de espacio alrededor de cada número */
+  color: #6D0AEB;
+  font-family: 'Cactus_Jack_Alternate', sans-serif;
+}
+.preguntasContainer {
+  background-color:  rgb(198, 185, 185);
+  border: 1px solid #6D0AEB;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 800px;
+  height: 200px;
+  text-align: center;
+  font-family: 'GloriaHale', sans-serif;
+  color: #6D0AEB;
+}
+.tituloVanguardia{
+  font-size: 50px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.preguntasVanguardia{
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.respuestasContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 15px;
+  background-color:  transparent;
+  border: none;
+  border-radius: 10px;
+  width: 800px;
+  height: 140px;
+  margin: 0 auto;
+  padding: 18px;
+  text-align: center;
+  margin-top: 50px;
+  outline: none;
+}
+.respuestasContainer button {
+  background-color:  rgb(198, 185, 185);
+  border: 1px solid #6D0AEB;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: 'GloriaHale', sans-serif;
+  color: #6D0AEB;
+  outline: none;
+}
+.boton_atras_preguntas {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+.boton_atras_preguntas_img{
+  width: 100px;
+  height: 100px; 
+  outline: none;
+}
+/* Estilos para el modal */
+.modal {
+  position: fixed; /* Se mantiene en su lugar independientemente del desplazamiento de la página */
+  z-index: 1000; /* Un valor alto para asegurarse de que el modal esté por encima de otros elementos */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  overflow: auto; /* Habilitar el desplazamiento si el contenido es demasiado grande para caber en el modal */
+}
+/* Estilos para el contenido del modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* Centrar vertical y horizontalmente */
+  padding: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 500px;
+  background-color: rgb(198, 185, 185);
+  border: 1px solid #6D0AEB;
+  z-index: 1000;
+  color: #6D0AEB;
+  font-family: 'GloriaHale', sans-serif;
+  text-align: center;
+}
+.modal-content p{
+  color: #6D0AEB;
+  font-family: 'GloriaHale', sans-serif;
+  margin-bottom: 8px;
+}
+.titulo_triste_modal{
+  margin-bottom: 0px;
+}
+/* Estilos para los botones del modal */
+.modal-content button {
+  margin-top: 0px;
+  margin-right: 8px;
+  padding: 10px 20px;
+  background-color: #6D0AEB; /* Color de fondo azul */
+  color: #fff; /* Color de texto blanco */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+/* Estilos para los botones cuando se pasa el cursor por encima */
+.modal-content button:hover {
+  background-color: #c00dbd; /* Color de fondo azul oscuro */
+}
+.personaje_triste_modal{
+  width: 150px;
+  height: 220px;
+  margin-left: 20px;
+}
+.personaje_alegre_modal{
+  width: 150px;
+  height: 210px;
+  margin-bottom: 0px;
+}
+#rotateWarning {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20%;
+  z-index: 9999;
+}
+ /* MEDIAS */ 
+@media screen and (orientation: landscape) {
+  #rotateWarning {
+      display: none;
+  }
+}
+  /* MOVILES */ 
+/* SAMSUNG GALAXY S20 ULTRA */ 
+@media screen and (max-width: 920px) and (max-height: 415px){
+  body #rotateWarning {
+    display: block !important; 
+  }
+  /* INICIO */
+  .body_index{
+    position: fixed;
+    width: 100%;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+  .nombre_juego_index {
+    font-size: 300px;
+    text-align: center; 
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: 'Cactus_Jack_Alternate', sans-serif;
+    color:#fff
+  }
+  .main-container_index {
+    position: relative;
+  }
+  .main-content_index {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 40px;
+  }
+  .saludo {
+    justify-content: right;
+    align-items: right;
+    width: 130px;
+    height: 312px;
+  } 
+
+    /* MENU */
+  .body_menu{
+    position: fixed;
+    width: 100%;
+    background-image: url("../img/fondo_menu.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+  .nombre_juego_menu {
+    font-size: 150px;
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-family: 'Cactus_Jack_Alternate', sans-serif;
+    color:#fff
+  }
+  .menu_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 1px; 
+  }
+  .iniciarJuego{
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin: 0 150px; 
+    justify-content: center;
+    align-items: center;
+    outline: none;
+  }
+  .boton_iniciar{
+    width: 240px;
+    height: 160px;
+  }
+  .instrucciones {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin: 0 200px; 
+    justify-content: center;
+    align-items: center;
+    outline: none;
+  }
+  .boton_instrucciones{
+    width: 240px;
+    height: 160px;
+  }
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(198, 185, 185);
+    padding: 40px;
+    width: 600px;
+    height: 300px;
+    border: 1px solid #6D0AEB;
+    border-radius: 10px;
+    z-index: 1000;
+  }
+  .popup p{
+    color: #6D0AEB;
+    font-size: 11px;
+  }
+  .mascota_dudando {
+    position: fixed; /* Cambiar de absolute a fixed */
+    width: 120px;
+    height: 230px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    right: 0px; /* Ajustar según sea necesario */
+    top: 60%; /* Ajustar según sea necesario */
+    transform: translateY(-50%); /* Ajustar según sea necesario */
+  }
+  .boton_silenciar{
+    width: 5px;
+    height: 5px;
+    justify-content: right;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    margin-right: 330px;
+    outline: none;
+  }
+  .boton_silenciar_img{
+    width: 80px;
+    height: 80px;
+    outline: none;
+  }
+  .boton_cerrar {
+    width: 30px;
+    height: 30px;
+    justify-content: right;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    outline: none;
+  }
+  .boton_cerrar_img{
+    width: 80px;
+    height: 80px;
+    outline: none;
+  }
+
+  /* HISTORIA */
+  .body_historia{
+    position: fixed;
+    width: 100%;
+    background-image: url("../img/menu_fondo_paleta.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+  .nombre_juego_historia{
+    font-size: 60px;
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    font-family: 'Cactus_Jack_Alternate', sans-serif;
+    color:#fff
+  }
+  .botones-niveles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 40px;
+    outline: none;
+  }
+  .nivel_1_historia {
+    width: 20px;
+    height: 20px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: 50px;
+    outline: none;
+  }
+  .nivel_1_historia_img{
+    width: 100px;
+    height: 100px;
+  }
+  .nivel_2_historia {
+    width: 0px;
+    height: 20px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    outline: none;
+  }
+  .nivel_2_historia_img{
+    width: 100px;
+    height: 100px;
+  }
+  .nivel_3_historia {
+    width: 0px;
+    height: 20px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 70px;
+    outline: none;
+  }
+  .nivel_3_historia_img{
+    width: 100px;
+    height: 100px;
+  }
+  .nivel_4_historia {
+    width: 0px;
+    height: 20px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    outline: none;
+  }
+  .nivel_4_historia_img{
+    width: 100px;
+    height: 100px;
+  }
+  .iniciarJuegoReal{
+    position: fixed;
+    bottom: 0px;
+    left: 50px;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+  }
+  .boton_iniciar_real{
+    width: 100px;
+    height: 100px; 
+    outline: none;
+  }
+  .modal_historia {
+    display: none; /* El modal estará oculto por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    overflow-y: hidden;
+  }
+  .modal-content_historia {
+    background-color: rgb(198, 185, 185);
+    margin: 10% auto; /* Centrar vertical y horizontalmente */
+    padding: 20px;
+    border: 1px solid #6D0AEB;
+    border-radius: 10px;
+    width: 80%;
+    height: 250px;
+    max-width: 500px;
+    text-align: center;
+    color: #6D0AEB;
+    font-family: 'GloriaHale', sans-serif;
+    font-size: 10px;
+  }
+  .modal-title_historia{
+    font-family: 'GloriaHale', sans-serif;
+    font-size: 14px;
+    top: 0px;
+  }
+  .close_historia {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close_historia:hover,
+  .close_historia:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .boton_cerrar_historia {
+    width: 30px;
+    height: 30px;
+    justify-content: right;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    outline: none;
+    
+  }
+  .boton_cerrar_img_historia {
+    width: 70px;
+    height: 70px;
+    outline: none;
+  }
+  
+    /* MAPA */
+  .body_mapa{
+    position: fixed;
+    width: 100%;
+    background-image: url("../img/mapa.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+  .nombre_juego_mapa{
+    font-size: 80px;
+    text-align: center; 
+    margin-top: 0px; 
+    margin-bottom: 5px; 
+    font-family: 'Cactus_Jack_Alternate', sans-serif;
+    color:#fff
+  }
+  .botones-niveles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 40px;
+    outline: none;
+  }
+  .nivel_1 {
+    width: 100px;
+    height: 100px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 10px;
+    outline: none;
+  }
+  .nivel_1_img{
+    width: 100px;
+    height: 100px;
+  }
+  .nivel_2 {
+    width: 100px;
+    height: 100px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    outline: none;
+  }
+  .nivel_2_img{
+    width: 100px;
+    height: 100px;
+  }
+  .nivel_3 {
+    width: 100px;
+    height: 100px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 30px;
+    outline: none;
+  }
+  .nivel_3_img{
+    width: 100px;
+    height: 100px;
+  }
+  .nivel_4 {
+    width: 100px;
+    height: 100px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    outline: none;
+  }
+  .nivel_4_img{
+    width: 100px;
+    height: 100px;
+  }
+  .boton_atras {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+  }
+  .boton_atras_img{
+    width: 50px;
+    height: 50px; 
+    outline: none;
+  }
+    /* PREGUNTAS */
+  .body_preguntas{
+    position: fixed;
+    width: 100%;
+    background-image: url("../img/preguntas_fondo.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+  .contadoresPreguntas {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(198, 185, 185);
+    border: 1px solid #6D0AEB;
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+  }
+  .numeroAciertos{
+    display: inline-block;
+    width: 50px; /* Tamaño del círculo */
+    height: 50px; /* Tamaño del círculo */
+    line-height: 20px; /* Centrar el texto verticalmente */
+    text-align: center; /* Centrar el texto horizontalmente */
+    border: 2px solid #6D0AEB; /* Grosor y color del borde */
+    border-radius: 50%; /* Hacer que el elemento sea un círculo */
+    background-color: rgb(198, 185, 185); /* Color de fondo */
+    font-size: 40px; /* Tamaño de fuente ajustable */
+    margin: 0; /* Eliminar margen */
+    padding: 10px; /* Agregar un poco de espacio alrededor de cada número */
+    color: #6D0AEB;
+    font-family: 'Cactus_Jack_Alternate', sans-serif;
+  }
+  .numeroVida{
+    font-size: 1px; /* Tamaño de fuente ajustable */
+    margin-right: 400px; /* Eliminar margen */
+    padding: 10px; /* Agregar un poco de espacio alrededor de cada número */
+    color: #6D0AEB;
+  }
+  .imagenVida{
+    width: 150px; /* Tamaño del círculo */
+    height: 50px;
+  }
+  .numeroTiempo {
+    display: inline-block;
+    width: 50px; /* Tamaño del círculo */
+    height: 50px; /* Tamaño del círculo */
+    line-height: 20px; /* Centrar el texto verticalmente */
+    text-align: center; /* Centrar el texto horizontalmente */
+    border: 2px solid #6D0AEB; /* Grosor y color del borde */
+    border-radius: 50%; /* Hacer que el elemento sea un círculo */
+    background-color: rgb(198, 185, 185); /* Color de fondo */
+    font-size: 40px; /* Tamaño de fuente ajustable */
+    margin: 0; /* Eliminar margen */
+    padding: 10px; /* Agregar un poco de espacio alrededor de cada número */
+    color: #6D0AEB;
+    font-family: 'Cactus_Jack_Alternate', sans-serif;
+  }
+  .preguntasContainer {
+    background-color:  rgb(198, 185, 185);
+    border: 1px solid #6D0AEB;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    font-family: 'GloriaHale', sans-serif;
+    color: #6D0AEB;
+  }
+  .tituloVanguardia{
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .preguntasVanguardia{
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .respuestasContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+    background-color:  transparent;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 18px;
+    text-align: center;
+    margin-top: 30px;
+    outline: none;
+  }
+  .respuestasContainer button {
+    background-color:  rgb(198, 185, 185);
+    border: 1px solid #6D0AEB;
+    border-radius: 30px;
+    font-size: 12px;
+    font-family: 'GloriaHale', sans-serif;
+    color: #6D0AEB;
+    outline: none;
+  }
+  .boton_atras_preguntas {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+  }
+  .boton_atras_preguntas_img{
+    width: 100px;
+    height: 100px; 
+    outline: none;
+  }
+    /* Estilos para el modal */
+  .modal {
+    position: fixed; /* Se mantiene en su lugar independientemente del desplazamiento de la página */
+    z-index: 1000; /* Un valor alto para asegurarse de que el modal esté por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    overflow-y: hidden;
+  }
+    /* Estilos para el contenido del modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Centrar vertical y horizontalmente */
+    padding: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    background-color: rgb(198, 185, 185);
+    border: 1px solid #6D0AEB;
+    z-index: 1000;
+    color: #6D0AEB;
+    font-family: 'GloriaHale', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .modal-content p{
+    color: #6D0AEB;
+    font-family: 'GloriaHale', sans-serif;
+    margin-bottom: 8px;
+  }
+  .titulo_triste_modal{
+    margin-bottom: 0px;
+  }
+  /* Estilos para los botones del modal */
+  .modal-content button {
+    margin-top: 0px;
+    margin-right: 8px;
+    padding: 10px 20px;
+    background-color: #6D0AEB; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+  }
+    /* Estilos para los botones cuando se pasa el cursor por encima */
+  .modal-content button:hover {
+    background-color: #c00dbd; /* Color de fondo azul oscuro */
+  }
+  .personaje_triste_modal{
+    width: 150px;
+    height: 220px;
+    margin-left: 20px;
+  }
+  .personaje_alegre_modal{
+    width: 120px;
+    height: 170px;
+    margin-bottom: 0px;
+  }
+}
+/* TABLETS */ 
+/* iPad Mini */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+}
+

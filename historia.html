@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="screen-orientation" content="landscape">
+    <title>diart</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css">
+    <script src="app/menu.js"></script>
+    <script src="app/historia.js"></script>
+
+</head>
+<body class="body_historia">
+    <main class="main-historia">
+        <div class="historia_container">
+            <h2 class="nombre_juego_historia">Historia</h2>
+            <div id="botones-niveles" class="botones-niveles">
+                <button id="cubismoBtnHistoria" class="nivel_1_historia"><img src="assets/img/nivel_1.png" alt="nivel_1" class="nivel_1_historia_img"></button>
+                
+                <button id="surrealismoBtnHistoria" class="nivel_4_historia"><img src="assets/img/nivel_4.png" alt="nivel_4" class="nivel_4_historia_img"></button>
+                <button id="expresionismoBtnHistoria" class="nivel_2_historia"><img src="assets/img/nivel_2.png" alt="nivel_2" class="nivel_2_historia_img"></button>
+                <button id="impresionismoBtnHistoria" class="nivel_3_historia"><img src="assets/img/nivel_3.png" alt="nivel_3" class="nivel_3_historia_img"></button>
+            </div>
+            <div>
+                <button id="volverMenu" class="boton_atras" onclick="window.location.href='menu.html'"><img src="assets/img/boton_atras.png" alt="boton_atras" class="boton_atras_img"></button>
+                <button id="iniciarJuego" class="iniciarJuegoReal" onclick="window.location.href='mapa.html'"><img src="assets/img/boton_iniciar.png" alt="iniciar" class="boton_iniciar_real"></button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="myModal_historia" class="modal_historia">
+        <div class="modal-content_historia">
+            <h2 id="modalTitle_historia" class="modal-title_historia"></h2>
+            <div id="modalContent_historia" class="modalContent_historia"></div>
+            <button onclick="closeModal()" class="boton_cerrar_historia"><img src="assets/img/boton_cerrar.png" alt="boton_cerrar" class="boton_cerrar_img_historia"></button>
+        </div>
+    </div>
+</body>
+</html>

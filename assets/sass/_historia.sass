@@ -1,0 +1,171 @@
+/* HISTORIA */
+.body_historia
+  position: fixed
+  width: 100%
+  background-image: url("../img/fondo_biblioteca.jpg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+  .nombre_juego_historia
+    font-size: 80px
+    text-align: center
+    margin-top: 40px
+    margin-bottom: 5px
+    font-family: 'Cactus_Jack_Alternate', sans-serif
+    color: #fff
+
+  .botones-niveles
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: repeat(2, auto)
+    gap: 40px
+    outline: none
+
+    .nivel_1_historia
+      width: 200px
+      height: 150px
+      border: none
+      padding: 0
+      background-color: transparent
+      justify-content: center
+      align-items: center
+      margin-left: 600px
+      margin-top: 0px
+      outline: none
+
+    .nivel_1_historia_img
+      width: 100px
+      height: 100px
+
+    .nivel_2_historia
+      width: 200px
+      height: 200px
+      border: none
+      padding: 0
+      background-color: transparent
+      justify-content: center
+      align-items: center
+      margin-left: 550px
+      outline: none
+
+    .nivel_2_historia_img
+      width: 100px
+      height: 100px
+
+    .nivel_3_historia
+      width: 50px
+      height: 200px
+      border: none
+      padding: 0
+      background-color: transparent
+      justify-content: center
+      align-items: center
+      margin-right: 0px
+      margin-top: 80px
+      outline: none
+
+    .nivel_3_historia_img
+      width: 100px
+      height: 100px
+
+    .nivel_4_historia
+      width: 0px
+      height: 200px
+      border: none
+      padding: 0
+      background-color: transparent
+      justify-content: center
+      align-items: center
+      margin-left: 0px
+      outline: none
+
+    .nivel_4_historia_img
+      width: 100px
+      height: 100px
+
+  .boton_atras
+    position: fixed
+    bottom: 0
+    left: 0
+    margin: 20px
+    width: 80px
+    height: 80px
+    border: none
+    padding: 0
+    background-color: transparent
+    justify-content: center
+    align-items: center
+    outline: none
+
+  .boton_atras_img
+    width: 100px
+    height: 100px
+    outline: none
+
+  .iniciarJuegoReal
+    position: fixed
+    bottom: 0
+    left: 100px
+    margin: 20px
+    width: 80px
+    height: 80px
+    border: none
+    padding: 0
+    background-color: transparent
+    justify-content: center
+    align-items: center
+    outline: none
+
+  .boton_iniciar_real
+    width: 110px
+    height: 110px
+    outline: none
+
+  .modal_historia
+    display: none /* El modal estará oculto por defecto */
+    position: fixed
+    z-index: 1000
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.5) /* Fondo semi-transparente */
+    overflow-y: hidden
+
+    .modal-content_historia
+      background-color: rgb(198, 185, 185)
+      margin: 15% auto /* Centrar vertical y horizontalmente */
+      padding: 20px
+      border: 1px solid #6D0AEB
+      border-radius: 10px
+      width: 80%
+      max-width: 500px
+      text-align: center
+      color: #6D0AEB
+      font-family: 'GloriaHale', sans-serif
+
+    .close_historia
+      color: #aaa
+      float: right
+      font-size: 28px
+      font-weight: bold
+      &:hover,
+      &:focus
+        color: black
+        text-decoration: none
+        cursor: pointer
+
+    .boton_cerrar_historia
+      width: 30px
+      height: 30px
+      justify-content: right
+      border: none
+      padding: 0
+      background-color: transparent
+      outline: none
+
+    .boton_cerrar_img_historia
+      width: 70px
+      height: 70px
+      outline: none

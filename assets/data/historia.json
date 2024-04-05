@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "vanguardia": "cubismo",
+        "historia": "El Cubismo fue una vanguardia artística que surgió a principios del siglo XX y fue liderada principalmente por el artista español Pablo Picasso y el francés Georges Braque. Aquí hay un resumen de las respuestas correctas sobre el Cubismo. Destacan la importancia de Pablo Picasso como el principal exponente del Cubismo, el contexto de París como el lugar donde se originó esta vanguardia, la característica distintiva del uso de formas geométricas y una de las primeras obras cubistas, Les Demoiselles d'Avignon, como un hito en el desarrollo de esta corriente artística."
+    },
+    {
+        "id": 2,
+        "vanguardia": "expresionismo",
+        "historia": "En el Expresionismo, La importancia de Edvard Munch como un representante destacado del Expresionismo, el origen del movimiento en Alemania, la característica principal de la representación emocional y subjetiva, y la obra icónica El grito como una de las piezas más reconocidas del Expresionismo."
+    },
+    {
+        "id": 3,
+        "vanguardia": "impresionismo",
+        "historia": "En el Impresionismo destacan a Claude Monet como uno de los fundadores del Impresionismo, la importancia de París como lugar de la primera exposición impresionista, la característica principal del movimiento centrada en la captura de la luz y la atmósfera, y una de las obras más emblemáticas de Monet, Estanque de Nenúfares y Puente Japonés, conocida por sus representaciones de nenúfares en su jardín en Giverny."
+    },
+    {
+        "id": 4,
+        "vanguardia": "surrealismo",
+        "historia": "El Surrealismo fue liderado por André Breton, en el año 1924 como el año en que se publicó el 'Manifiesto Surrealista', la exploración del subconsciente y lo irracional como una característica clave del surrealismo, y Salvador Dalí como el pintor surrealista conocido por su obra 'La Persistencia de la Memoria'"
+    }
+]

@@ -1,0 +1,158 @@
+/* PREGUNTAS */
+.body_preguntas
+  position: fixed
+  width: 100%
+  background-image: url("../img/preguntas_fondo.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+  .contadoresPreguntas
+    display: flex
+    justify-content: space-between
+    background-color: rgb(198, 185, 185)
+    border: 1px solid #6D0AEB
+    width: 1400px
+    height: 100px
+    margin: 0 auto
+    margin-top: 50px
+    background-color: transparent
+    border: none
+
+    .numeroAciertos, .numeroTiempo
+      display: inline-block
+      width: 100px
+      height: 100px
+      line-height: 60px
+      text-align: center
+      border: 2px solid #6D0AEB
+      border-radius: 50%
+      background-color: rgb(198, 185, 185)
+      font-size: 80px
+      margin: 0
+      padding: 10px
+      color: #6D0AEB
+      font-family: 'Cactus_Jack_Alternate', sans-serif
+
+    .numeroTiempo
+      margin-right: 800px
+      font-size: 1px
+
+    .preguntasContainer
+      background-color: rgb(198, 185, 185)
+      border: 1px solid #6D0AEB
+      border-radius: 30px
+      margin: 0 auto
+      margin-top: 50px
+      width: 800px
+      height: 200px
+      text-align: center
+      font-family: 'GloriaHale', sans-serif
+      color: #6D0AEB
+
+  .tituloVanguardia
+    font-size: 50px
+    margin-bottom: 5px
+    margin-top: 10px
+
+  .preguntasVanguardia
+    font-size: 20px
+    margin-bottom: 0px
+    margin-top: 25px
+    margin-right: 30px
+    margin-left: 30px
+
+  .respuestasContainer
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: repeat(2, auto)
+    gap: 15px
+    background-color: transparent
+    border: none
+    border-radius: 10px
+    width: 800px
+    height: 140px
+    margin: 0 auto
+    padding: 18px
+    text-align: center
+    margin-top: 50px
+    outline: none
+
+    .respuestasContainer button
+      background-color: rgb(198, 185, 185)
+      border: 1px solid #6D0AEB
+      border-radius: 30px
+      font-size: 20px
+      font-family: 'GloriaHale', sans-serif
+      color: #6D0AEB
+      outline: none
+
+  .boton_atras_preguntas
+    position: fixed
+    bottom: 0
+    left: 0
+    margin: 20px
+    width: 80px
+    height: 80px
+    border: none
+    padding: 0
+    background-color: transparent
+    justify-content: center
+    align-items: center
+    outline: none
+
+    .boton_atras_preguntas_img
+      width: 100px
+      height: 100px
+      outline: none
+
+    /* Estilos para el modal */
+    .modal
+      position: fixed
+      z-index: 1000
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      background-color: rgba(0, 0, 0, 0.5)
+      overflow: auto
+
+      /* Estilos para el contenido del modal */
+      .modal-content
+        background-color: #fefefe
+        margin: 15% auto
+        padding: 20px
+        border-radius: 20px
+        padding: 40px
+        width: 500px
+        background-color: rgb(198, 185, 185)
+        border: 1px solid #6D0AEB
+        z-index: 1000
+        color: #6D0AEB
+        font-family: 'GloriaHale', sans-serif
+        text-align: center
+
+        .modal-content p
+          color: #6D0AEB
+          font-family: 'GloriaHale', sans-serif
+
+        /* Estilos para los botones del modal */
+        .modal-content button
+          margin-top: 10px
+          margin-bottom: 0px
+          padding: 10px 20px
+          background-color: #6D0AEB
+          color: #fff
+          border: none
+          border-radius: 10px
+          cursor: pointer
+          outline: none
+
+        /* Estilos para los botones cuando se pasa el cursor por encima */
+        .modal-content button:hover
+          background-color: #6D0AEC
+
+        .personaje_triste_modal, .personaje_alegre_modal
+          width: 100px
+          height: 150px
+          margin-bottom: 0px
